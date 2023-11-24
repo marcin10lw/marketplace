@@ -44,7 +44,7 @@ const NavItem = ({ category, isOpen, isAnyOpen, handleOpen }: NavItemProps) => {
           )}
         >
           <div className='absolute inset-0 top-1/2' aria-hidden='true'>
-            <div className='mx-auto max-w-7xl bg-white px-8 shadow'>
+            <div className='mx-auto max-w-7xl bg-white/50 px-8 shadow-lg backdrop-blur-md'>
               <div className='grid grid-cols-4 gap-x-8 gap-y-10 py-16'>
                 <div className='col-span-4 col-start-1 grid grid-cols-3 gap-x-8'>
                   {category.featured.map((item) => (
